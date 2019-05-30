@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+<title>회원 가입</title>
+<link rel="stylesheet" href="resources/css/join.css" type="text/css"></link>
+</head>
+<body>
+<div>
+<a href="http://localhost:8080/hyemin_free/main.jsp">
+	<img width="300px"src="resources/images/CI.png"/>
+	</a>
+</div>
+
+<div>
+	<form name=form1 method="post" action="http://localhost:8080/hyemin_free/LoginService?key=join">
+		<table>
+			<tr>
+				<td colspan="2">
+					<header>회원가입</header>
+				</td>
+			</tr>
+			<tr>
+				<td class="td_color">이름</td>
+				<td><input type=text size=20 name=username autofocus required placeholder="공백없이 입력하세요"></td>
+			</tr>
+			<tr>
+				<td class="td_color">아이디</td>
+				<td><input type=text size=20 name=id placeholder="공백없이 입력하세요"></td>
+			</tr>
+			<tr>
+				<td class="td_color">비밀번호</td>
+				<td><input type=text size=20 name=password placeholder="공백없이 입력하세요"></td>
+			</tr>
+			<tr>
+				<td class="td_color">반려견 이름</td>
+				<td><input type=text size=20 name=dogname autofocus required placeholder="공백없이 입력하세요"></td>
+			</tr>
+			<tr>
+				<td class="td_color">반려견 나이</td>
+				<td><input type="number" name="dogage" min="1" max="50" value="10"></td>
+			</tr>
+			<tr>
+				<td class="td_color">반려견 성별</td>
+				<td>
+					<select name=dogsex>
+						<option selected>남</option>
+						<option>여</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="td_color">견종</td>
+				<td>
+					<select name="dogtype">
+								<option value="말티즈"selected>말티즈</option>
+								<option value="요크셔테리어">요크셔테리어</option>
+								<option value="치와와">치와와</option>
+								<option value="시추">시추</option>
+								<option value="푸들">푸들</option>
+							</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 align=center>
+					<input type=submit value="확인">
+					<input type=reset value="취소">
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
