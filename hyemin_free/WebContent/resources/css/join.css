@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face { font-family: 'NanumBarunGothic';
+src: url('resources/fonts/NanumBarunGothic.eot');
+src: url('resources/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+url('resources/fonts/NanumBarunGothic.woff') format('woff');}
+
+	header
+	{
+		margin: 10px 5px 5px 5px;
+		font-family: "배달의민족 도현", "NanumBarunGothic";
+		font-weight: bold;
+		font-size: 35px;
+		color:#cd8b41;
+		text-shadow: -1px 0 #6d5e5b, 0 1px #6d5e5b, 1px 0 #6d5e5b, 0 -1px #6d5e5b;
+		text-align: center;
+	}
+	body
+	{
+		background: white;
+		color: black;
+		font-family:'배달의 민족 도현체','NanumBarunGothic';
+	}
+	div{
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+		text-align: center;
+	}
+
+	ul{
+		list-style:none;
+		text-align:left;
+		background-color:#CEE3F6;
+		margin-left:20px;
+		margin-right:20px;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	#sect{
+		background-color:#6d5e5b;
+		text-align:center;
+		margin:20px;
+		padding:20px;
+		color:white;
+	}
+	a{
+		text-decoration: underline;
+		color:white;
+	}
+	a:link {text-decoration: none; color: white;}
+	a:visited {text-decoration: none; color: white;}
+	a:active {text-decoration: none; color: white;}
+	a:hover {text-decoration: underline; color: white;}
+	
+	fieldset{
+		border: 1px solid lightgray;
+	}
+	legend{
+		text-align: left;
+	}
+	table{
+		border-collapse:collapse;
+		width:100%
+	}
+	th{
+		border: 1px solid lightgray;
+		padding: 5px;
+		width: 60%;
+		align: center;
+		font-weight: bold;
+		background-color: #F2F2F2;
+	}
+	td{
+		border: 1px solid lightgray;
+		padding: 5px;
+		width:60px;
+		align: center;
+	}
+	.td_color{
+		align: center;
+		background-color:#6d5e5b;
+		color: white;
+	}
+	input[type=text]{width:200px;}
+	select{width:200px;}
+	input[type=submit] {border:1px solid #CCC; width:150px; background-color:#6d5e5b; color: white; font-size:15px;}
+	input[type=reset] {border:1px solid #CCC; width:150px; background-color:#6d5e5b; color: white; font-size:15px;}
+	button{border:1px solid #CCC; background-color:#6d5e5b; color: white; font-size:15px;}

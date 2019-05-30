@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face { font-family: 'NanumBarunGothic';
+src: url('resources/fonts/NanumBarunGothic.eot');
+src: url('resources/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+url('resources/fonts/NanumBarunGothic.woff') format('woff');}
+
+body{
+		color: black;
+		font-family:'배달의 민족 도현체','NanumBarunGothic';
+	}
+
+div{
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	text-align: center;
+}
+#sect{
+		background-color:#6d5e5b;
+		text-align:center;
+		margin:20px;
+		padding:20px;
+		color:white;
+	}
+a{
+		text-decoration: underline;
+		color:#0000a0;
+	}
+a:link {text-decoration: none; color: white;}
+a:visited {text-decoration: none; color: white;}
+a:active {text-decoration: none; color: white;}
+a:hover {text-decoration: underline; color: #cd8b41;}
+	
